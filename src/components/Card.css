@@ -1,0 +1,43 @@
+body {
+    margin:0;
+}
+
+.App {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column-reverse;
+}
+
+.button {
+    margin: 30px 0 20px 0;
+    background-color: lime;
+    color: red;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 900;
+    font-size: 34px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.cards-container {
+    margin: 30px 0 0 0;
+    height: 500px;
+    width: 300px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    padding: 20px;   
+}
+
+.Card {
+    border: 2px solid red;
+    width: 10rem;
+    padding: 1rem;
+}
