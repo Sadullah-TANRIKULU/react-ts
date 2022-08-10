@@ -3,16 +3,17 @@ import './Card.css';
 
 function Card(props: info) {
 
-    const { activity, type, participants, price, accessibility } = props;
+    console.log(props);
+    
+    const { task, completed } = props;
     
 
 
 
 return (
     <div className="Card">
-        <h3>{activity}</h3>
-        <p>{type}</p>
-        <p>{participants}</p>
+        <h3>{task}</h3>
+        <p>{completed}</p>
     </div>
 )
 
